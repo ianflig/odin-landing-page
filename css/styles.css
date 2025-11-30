@@ -209,10 +209,12 @@ button {
     justify-content: space-around;
     align-items: center;
     background-color: #233154;
-    width: 1000px;
+    width: 900px;
     padding: 3rem;
     border-radius: 1rem;
     text-align: left;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .section-four .text-one {
@@ -228,4 +230,20 @@ button {
     padding: 12px;
     width: 9rem;
     font-size: 16px;
+}
+
+.footer {
+    background-color: #212a39;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.footer .text {
+    font-size: 16px;
+    color: lightgray;
 }

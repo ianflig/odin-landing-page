@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: lightgray;
     font-weight: bold;
     font-size: 25px;
 }
@@ -32,7 +32,7 @@ body {
 
 .header-buttons a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
     font-size: 18px;
 }
 
@@ -75,9 +75,10 @@ body {
     padding: 0;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
 }
 
-.info button {
+button {
     margin-top: 15px;
     font-family: Roboto, sans-serif;
     border: none;
@@ -148,6 +149,7 @@ body {
 .section-two .text-two {
     margin-top: 10px;
     font-size: 15px;
+    color: lightgray;
 }
 
 
@@ -189,4 +191,41 @@ body {
 .section-three .text-two {
     text-align: right;
     font-size: 25px;
+}
+
+.section-four {
+    background-color: #050713;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.section-four .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #233154;
+    width: 1000px;
+    padding: 3rem;
+    border-radius: 1rem;
+    text-align: left;
+}
+
+.section-four .text-one {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-four .text-two {
+    color: lightgray;
+}
+
+.section-four button {
+    padding: 12px;
+    width: 9rem;
+    font-size: 16px;
 }
